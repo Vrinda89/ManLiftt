@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Questionnare</string>
+    <string name="nfeed_str_ok">Ok</string>
+    <string name="str_font_medium">fonts/helvetica_medium.ttf</string>
+    <string name="str_title">Questionnare</string>
+
+</resources>

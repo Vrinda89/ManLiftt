@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/nfeed_dim_10dp"
+    app:cardCornerRadius="@dimen/nfeed_dim_10dp"
+    app:cardElevation="@dimen/nfeed_dim_10dp"
+    card_view:contentPadding="25dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/nfeed_dim_10dp"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/nfeed_dim_10dp"
+            android:layout_marginRight="@dimen/nfeed_dim_10dp"
+            android:orientation="horizontal">
+
+            <android.support.v7.widget.AppCompatTextView
+                android:layout_width="@dimen/nfeed_dim_0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Score"
+                android:textColor="@color/colorBlack"
+                android:gravity="right" />
+
+            <android.support.v7.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/dim_3dp"
+                android:textColor="@color/colorBlack"
+                android:gravity="center"
+                android:text=":" />
+
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/totalTV"
+                android:gravity="left"
+                android:layout_width="@dimen/nfeed_dim_0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/nfeed_dim_10dp"
+            android:orientation="horizontal">
+
+            <android.support.v7.widget.AppCompatTextView
+                android:layout_width="@dimen/nfeed_dim_0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Skipped"
+                android:textColor="@color/colorBlack"
+                android:gravity="right" />
+
+            <android.support.v7.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/dim_3dp"
+                android:textColor="@color/colorBlack"
+                android:gravity="center"
+                android:text=":" />
+
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/skippedTV"
+                android:gravity="left"
+                android:layout_width="@dimen/nfeed_dim_0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/btnOK"
+            fontPath="@string/str_font_medium"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/nfeed_dim_35dp"
+            android:layout_marginBottom="@dimen/nfeed_dim_5dp"
+            android:background="@drawable/img_btn_bg"
+            android:text="@string/nfeed_str_ok"
+            android:textAllCaps="true"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/nfeed_dim_12sp" />
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>
