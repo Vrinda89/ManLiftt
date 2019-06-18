@@ -5,13 +5,9 @@
    - Android Sdk
 
 ## Project Dependencies
-    - Rx Java
     - Dagger
-    - Retrofit
     - Android Architecture component
-    - Picasso
     - Calligraphy
-    - Collection binding adapter
     - Lottie
 
 ## About
